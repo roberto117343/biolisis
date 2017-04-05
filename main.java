@@ -59,7 +59,7 @@ public class main {
 				
 			};
 			
-			System.out.println("Introduce la secuencia a alanizar:");
+			System.out.println("Introduce la secuencia a analizar:");
 			
 			BufferedReader buff = new BufferedReader(entradaCadena);
 			try{
@@ -109,7 +109,7 @@ public class main {
 					centinela_Principal = false;
 				}
 				
-			}catch(Exception e){System.out.println("Fallo al leer la sálida");};
+			}catch(Exception e){System.out.println("Fallo al leer la salida");};
 			
 			
 		}
