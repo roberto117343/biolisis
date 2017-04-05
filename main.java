@@ -32,7 +32,7 @@ public class main {
 		
 		while(centinela_Principal){
 			
-			System.out.println("¿Que tipo de secuencia desea analizar?\n");
+			System.out.println("¿Qué tipo de secuencia desea analizar?\n");
 			System.out.println("1. ADN");
 			System.out.println("2. ARN");
 			System.out.println("3. Proteínas");
