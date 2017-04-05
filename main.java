@@ -174,8 +174,8 @@ public class main {
 		
 		System.out.println("PROPORCIONES\n");
 		
-		System.out.println("Proporción de ADENINA: " + calculo_regla(contador_A, cadena.length) + "%");
-		System.out.println("Proporción de CITOSINA: " + calculo_regla(contador_C, cadena.length) + "%");
+		System.out.println("Proporción de ADENINA: " + calculo_regla(contador_A, cadena.length) + " %");
+		System.out.println("Proporción de CITOSINA: " + calculo_regla(contador_C, cadena.length) + " %");
 		System.out.println("Proporción de GUANINA: " + calculo_regla(contador_G, cadena.length) + " %");
 		System.out.println("Proporción de " + Nucl_Problema + ": "  + calculo_regla(contador_Problema, cadena.length) + " %");
 		System.out.println("Proporción de DATOS ANÓMALOS: " + calculo_regla(contador_Anomalias, cadena.length) + " %\n");
@@ -337,4 +337,3 @@ public class main {
 	}
 
 }
-
